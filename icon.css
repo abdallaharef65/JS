@@ -1,0 +1,18 @@
+html {
+
+    --main--color: #FF5D55;
+    --blackColor: #111;
+    --grayColor: #333;
+    --whiteColor: rgb(255, 255, 255);
+}
+
+html.active {
+
+    --main--color: #63ff55;
+
+}
+
+
+button{
+    background-color: var(--main--color);
+}
